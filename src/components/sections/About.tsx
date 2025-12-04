@@ -27,32 +27,31 @@ const About = () => {
           <div className="space-y-6 animate-fade-in">
             <Card className="border-2 card-hover">
               <CardContent className="p-6">
-                <h3 className="text-2xl font-bold mb-4 gradient-text">Full-Stack Developer</h3>
-                <p className="text-muted-foreground leading-relaxed mb-4">I'm a passionate junior full-stack developer specializing in building modern web applications with Angular and Node.js. With a strong foundation in both frontend and backend technologies, I create scalable, secure, and user-friendly solutions.</p>
-                <p className="text-muted-foreground leading-relaxed">My expertise includes working with MongoDB, Express, REST APIs, and implementing clean code principles following MVC architecture. I'm constantly learning and adapting to new technologies to deliver the best results.</p>
+                <h3 className="text-2xl font-bold mb-4 gradient-text">Backend Developer - Node.js</h3>
+                <p className="text-muted-foreground leading-relaxed">I'm a junior backend developer focused on building clean, scalable, and secure server-side applications using Node.js and Express. I work with MongoDB, Mongoose, JWT authentication, Redis, and follow the MVC architecture to create well-structured and maintainable backend systems. I enjoy designing RESTful APIs, organizing data models, and solving real-world challenges through efficient code. I'm continuously learning and building projects to strengthen my skills and understanding of backend development best practices.</p>
               </CardContent>
             </Card>
 
-            <div className="grid grid-cols-3 gap-4">
-              {/* <Card className="border-2 card-hover text-center">
+            {/* <div className="grid grid-cols-3 gap-4">
+              <Card className="border-2 card-hover text-center">
                 <CardContent className="p-4">
                   <div className="text-3xl font-bold text-primary mb-1">2+</div>
                   <div className="text-sm text-muted-foreground">Years Experience</div>
                 </CardContent>
-              </Card> */}
-              {/* <Card className="border-2 card-hover text-center">
+              </Card>
+              <Card className="border-2 card-hover text-center">
                 <CardContent className="p-4">
                   <div className="text-3xl font-bold text-secondary mb-1">15+</div>
                   <div className="text-sm text-muted-foreground">Projects Completed</div>
                 </CardContent>
-              </Card> */}
-              {/* <Card className="border-2 card-hover text-center">
+              </Card>
+              <Card className="border-2 card-hover text-center">
                 <CardContent className="p-4">
                   <div className="text-3xl font-bold text-accent mb-1">10+</div>
                   <div className="text-sm text-muted-foreground">Technologies</div>
                 </CardContent>
-              </Card> */}
-            </div>
+              </Card>
+            </div> */}
           </div>
         </div>
       </div>

@@ -4,8 +4,8 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 const Education = () => {
   const education = [
     {
-      title: "Bachelor of Managament Information System - English Section",
-      company: "Faculty of Business, Alexandria University",
+      title: "Managament Information System - MIS",
+      company: "Faculty of Business - English Section, Alexandria University",
       period: "2019 - 2023",
       description: ["Developed 15+ web applications for clients using Angular and Node.js", "Implemented RESTful APIs and database designs for various projects", "Collaborated with designers to create responsive, user-friendly interfaces", "Maintained code quality through testing and code reviews"],
     },

@@ -8,7 +8,7 @@ const Skills = () => {
       title: "Frontend",
       icon: Code2,
       color: "text-primary",
-      skills: ["HTML5", "CSS3", "Bootstrap", "Tailwind CSS", "JavaScript", "TypeScript", "Angular", "React", "Next.js"],
+      skills: ["HTML5", "CSS3", "Bootstrap", "Tailwind CSS", "JavaScript", "TypeScript", "React", "Next.js"],
     },
     {
       title: "Backend",
@@ -20,7 +20,7 @@ const Skills = () => {
       title: "Tools & Platforms",
       icon: Wrench,
       color: "text-accent",
-      skills: ["Git", "GitHub", "Postman", "Linux", "MongoDB Atlas", "Windsurf", "VS Code", "npm"],
+      skills: ["Git", "GitHub", "Postman", "Linux", "MongoDB Atlas", "Windsurf", "npm", "Notion"],
     },
     {
       title: "Architecture",

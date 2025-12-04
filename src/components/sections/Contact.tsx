@@ -55,8 +55,8 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/Omar1030",
-      displayText: "github.com/Omar1030",
+      href: "https://github.com/Omar-Abdelmoaty-10",
+      displayText: "github.com/Omar-Abdelmoaty-10",
       color: "text-foreground",
     },
     {
@@ -133,7 +133,7 @@ const Contact = () => {
 
             <Card className="border-2 card-hover">
               <CardContent className="p-6">
-                <p className="text-muted-foreground text-center">Looking for a dedicated full-stack developer? Let's discuss how I can help bring your project to life!</p>
+                <p className="text-muted-foreground text-center">Looking for a dedicated backend developer? Let's discuss how I can help bring your project to life!</p>
               </CardContent>
             </Card>
           </div>

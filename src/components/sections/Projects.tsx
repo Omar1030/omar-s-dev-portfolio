@@ -6,46 +6,31 @@ import { Badge } from "@/components/ui/badge";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-featured online shopping platform with payment integration, user authentication, and admin dashboard.",
-      tech: ["Angular", "Node.js", "MongoDB", "Stripe"],
-      liveUrl: "#",
-      githubUrl: "#",
+      title: "Spotly",
+      description: "A fullstack web app for managing events with user authentication, event creation, and bookings.",
+      tech: ["Nextjs", "Nodejs", "Express", "MongoDB"],
+      liveUrl: "https://spotly-clinet.vercel.app/",
+      githubUrl: "https://github.com/saied-ebrahim/Spotly-API",
     },
     {
-      title: "Task Management System",
-      description: "Collaborative task manager with real-time updates, team collaboration features, and progress tracking.",
-      tech: ["React", "Express", "MongoDB", "Socket.io"],
-      liveUrl: "#",
-      githubUrl: "#",
+      title: "REST API",
+      description: "A REST API built with Node.js and Express, using MongoDB as the database",
+      tech: ["Node.js", "Express", "MongoDB", "JWT", "MVC"],
+      githubUrl: "https://github.com/Omar-Abdelmoaty-10/REST-API",
     },
     {
-      title: "Blog CMS",
-      description: "Content management system for bloggers with markdown support, SEO optimization, and analytics.",
-      tech: ["Angular", "Node.js", "MongoDB", "JWT"],
-      liveUrl: "#",
-      githubUrl: "#",
+      title: "E-commerce",
+      description: "A scalable React e-commerce frontend with component-driven design, Redux state, and API-ready hooks.",
+      tech: ["React", "Redux", "TailwindCSS"],
+      liveUrl: "https://shop-co-iota-sage.vercel.app/",
+      githubUrl: "https://github.com/Omar-Abdelmoaty-10/SHOP.CO",
     },
     {
-      title: "Weather Dashboard",
-      description: "Real-time weather application with location-based forecasts, interactive maps, and weather alerts.",
-      tech: ["React", "REST API", "Tailwind", "Charts.js"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      title: "Social Media API",
-      description: "RESTful API for a social media platform with posts, comments, likes, and user relationships.",
-      tech: ["Node.js", "Express", "MongoDB", "JWT"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      title: "Portfolio Builder",
-      description: "Drag-and-drop portfolio builder allowing users to create and customize their personal websites.",
-      tech: ["Angular", "Node.js", "MongoDB", "AWS S3"],
-      liveUrl: "#",
-      githubUrl: "#",
+      title: "Responsive Landing Page",
+      description: "A fully responsive landing page with modern design, smooth animations, and mobile-first layout",
+      tech: ["HTML", "CSS", "Bootstrap"],
+      liveUrl: "https://anon-liard.vercel.app/",
+      githubUrl: "https://github.com/Omar-Abdelmoaty-10/Anon",
     },
   ];
 
@@ -57,25 +42,15 @@ const Projects = () => {
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-6" />
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            Here are some of my recent projects showcasing my skills in full-stack development
-          </p>
+          <p className="text-muted-foreground max-w-2xl mx-auto">Here are some of my recent projects showcasing my skills in full-stack development</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
           {projects.map((project, index) => (
-            <Card
-              key={project.title}
-              className="border-2 card-hover group animate-fade-in"
-              style={{ animationDelay: `${index * 0.1}s` }}
-            >
+            <Card key={project.title} className="border-2 card-hover group animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
               <CardHeader>
-                <CardTitle className="text-xl group-hover:text-primary transition-colors">
-                  {project.title}
-                </CardTitle>
-                <CardDescription className="text-sm">
-                  {project.description}
-                </CardDescription>
+                <CardTitle className="text-xl group-hover:text-primary transition-colors">{project.title}</CardTitle>
+                <CardDescription className="text-sm">{project.description}</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex flex-wrap gap-2">
