@@ -16,7 +16,7 @@ const Hero = () => {
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6">
             Hi, I'm <span className="gradient-text">Omar Abdelmoaty</span>
           </h1>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-muted-foreground mb-6">Full-Stack Developer</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-muted-foreground mb-6">Backend Developer</h2>
           <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">Node.js Developer. I architect and deliver secure, fast RESTful APIs and manage diverse data NoSQL to ensure optimal backend performance.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button size="lg" className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity text-lg px-8" asChild>
